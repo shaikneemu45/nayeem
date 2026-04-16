@@ -1,0 +1,33 @@
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+
+body { background-color: #0f172a; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; }
+
+.hero { text-align: center; padding: 50px; }
+h1 { font-size: 3.5rem; color: #38bdf8; margin-bottom: 1rem; }
+p { font-size: 1.2rem; color: #94a3b8; margin-bottom: 2rem; }
+
+/* THE BUTTON EFFECTS */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* This makes the effect smooth */
+    background: #38bdf8;
+    color: #0f172a;
+    border: 2px solid #38bdf8;
+}
+
+.secondary { background: transparent; color: #38bdf8; }
+
+/* HOVER EFFECTS */
+.btn:hover {
+    transform: translateY(-5px); /* Moves button up */
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.4); /* Glow effect */
+    background: white;
+    color: #0f172a;
+    border-color: white;
+}
